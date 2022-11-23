@@ -1,0 +1,34 @@
+{
+  "name": "parcel-resolver-react-profiling",
+  "version": "1.0.0",
+  "description": "https://gist.github.com/bvaughn/25e6233aeb1b4f0cdb8d8366e54a3977?permalink_comment_id=4166747#gistcomment-4166747",
+  "main": "build/index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "tsc",
+    "format": "prettier --write '**/*.{yml,json,md,ts,js}'",
+    "format:check": "prettier --check '**/*.{yml,json,md,ts,js}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/plugin": "^2.8.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.11.9",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "lint-staged": {
+    "**/*.{yml,json,md,ts,js}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "parcel": ">= 2.8.0"
+  }
+}
