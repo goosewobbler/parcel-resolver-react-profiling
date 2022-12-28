@@ -1,7 +1,7 @@
 {
   "name": "parcel-resolver-react-profiling",
   "version": "1.0.0",
-  "description": "https://gist.github.com/bvaughn/25e6233aeb1b4f0cdb8d8366e54a3977?permalink_comment_id=4166747#gistcomment-4166747",
+  "description": "Parcel Resolver for React Profiling",
   "main": "build/index.js",
   "scripts": {
     "prepare": "husky install",
