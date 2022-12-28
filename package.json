@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@parcel/plugin": "^2.8.0"
+    "@parcel/core": "^2.8.2",
+    "@parcel/plugin": "^2.8.2"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
