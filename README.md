@@ -1,5 +1,11 @@
 # React Profiling Resolver for Parcel
 
+### Install
+
+`npm i -D parcel-resolver-react-profiling`
+`pnpm i -D parcel-resolver-react-profiling`
+`yarn add -D parcel-resolver-react-profiling`
+
 ### Usage
 
 `.parcelrc`:
