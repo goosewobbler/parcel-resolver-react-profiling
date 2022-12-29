@@ -2,13 +2,19 @@
 
 ### Usage
 
-`.parcelrc`
+`.parcelrc`:
 
-```
+```json
 {
   "extends": "@parcel/config-default",
   "resolvers": ["parcel-resolver-react-profiling", "..."]
 }
+```
+
+Run parcel with the REACT_PROFILING env var:
+
+```bash
+REACT_PROFILING=true parcel serve index.html
 ```
 
 ### Inspiration:
