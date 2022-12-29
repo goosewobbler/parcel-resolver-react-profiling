@@ -2,8 +2,8 @@
 
 ### Install
 
-`npm i -D parcel-resolver-react-profiling`
-`pnpm i -D parcel-resolver-react-profiling`
+`npm i -D parcel-resolver-react-profiling`\
+`pnpm i -D parcel-resolver-react-profiling`\
 `yarn add -D parcel-resolver-react-profiling`
 
 ### Usage
