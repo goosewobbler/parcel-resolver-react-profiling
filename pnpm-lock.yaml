@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@parcel/core': ^2.8.2
-  '@parcel/plugin': ^2.8.0
-  '@tsconfig/node16': ^1.0.3
+  '@parcel/plugin': ^2.8.2
+  '@tsconfig/node16': ^16.0.0
   '@types/node': ^18.11.9
   husky: ^8.0.2
   lint-staged: ^13.0.3
@@ -15,7 +15,7 @@ dependencies:
   '@parcel/plugin': 2.8.2_@parcel+core@2.8.2
 
 devDependencies:
-  '@tsconfig/node16': 1.0.3
+  '@tsconfig/node16': 16.1.0
   '@types/node': 18.11.18
   husky: 8.0.2
   lint-staged: 13.1.0
@@ -336,8 +336,8 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
-  /@tsconfig/node16/1.0.3:
-    resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
+  /@tsconfig/node16/16.1.0:
+    resolution: {integrity: sha512-cfwhqrdZEKS+Iqu1OPDwmKsOV/eo7q4sPhWzOXc1rU77nnPFV3+77yPg8uKQ2e8eir6mERCvrKnd+EGa4qo4bQ==}
     dev: true
 
   /@types/node/18.11.18:
