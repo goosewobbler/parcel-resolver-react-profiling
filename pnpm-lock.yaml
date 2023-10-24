@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@parcel/core': ^2.8.2
-  '@parcel/plugin': ^2.8.0
+  '@parcel/plugin': ^2.8.2
   '@tsconfig/node16': ^1.0.3
-  '@types/node': ^18.11.9
+  '@types/node': ^20.0.0
   husky: ^8.0.2
   lint-staged: ^13.0.3
   prettier: ^2.7.1
@@ -16,7 +16,7 @@ dependencies:
 
 devDependencies:
   '@tsconfig/node16': 1.0.3
-  '@types/node': 18.11.18
+  '@types/node': 20.8.8
   husky: 8.0.2
   lint-staged: 13.1.0
   prettier: 2.8.1
@@ -340,8 +340,10 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/20.8.8:
+    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+    dependencies:
+      undici-types: 5.25.3
     dev: true
 
   /abortcontroller-polyfill/1.7.5:
@@ -979,6 +981,10 @@ packages:
     resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: true
+
+  /undici-types/5.25.3:
+    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
     dev: true
 
   /update-browserslist-db/1.0.10_browserslist@4.21.4:
